@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 96%;
+  height: auto;
+  margin: 10px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(/images/code_back_002.jpg);
+  background-size: cover;
+  color: antiquewhite;
+}
+h1 {
+  color: lightblue;
+  font-size: 1.8em;
+  margin: 10px;
+  text-align: center;
+}
+h2 {
+  color: lightblue;
+  font-size: 1em;
+  margin: 1em 0;
+  padding-left: 10px;
+}
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px o;
+  text-align: center;
+}
+article p {
+  font-size: 0.9em;
+  text-align: left;
+  padding: 5px 10px;
+}
+img {
+  width: 600px;
+  max-width: 96%;
+  height: auto;
+  border: 1px solid black;
+}
+button {
+  border-radius: 10px;
+  border: 2px;
+  background-color: midnightblue;
+  padding: 3px 2px;
+}
+.button-1 {
+  background-color: midnightblue;
+  color: antiquewhite;
+  padding: 12px 10px;
+}
+.button-1:hover {
+  color: deeppink;
+}
+
+.winc a {
+  text-decoration: underline;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+a:hover {
+  color: deeppink;
+}
+.clr {
+  clear: both;
+}
+.header h1 {
+  color: deeppink;
+}
+.content {
+  border: 5px dashed deeppink;
+  border-radius: 15px;
+}
+
+.background {
+  background-image: url(/images/lijntjes_5.jpg);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-clip: padding-box;
+  background-color: aliceblue;
+  font-family: "Comforter";
+  font-family: "The Girl Next Door";
+  font-weight: 600;
+  color: darkblue;
+  height: 100%;
+  padding-bottom: 5em;
+}
+
+.background p {
+  padding-left: 3.5em;
+  padding-right: 1em;
+  text-align: left;
+}
+.background h1 {
+  margin: 10px;
+  padding-top: 20px;
+  font-weight: 900;
+  text-align: center;
+  color: darkblue;
+}
+.background h2 {
+  margin: 10px;
+  padding-top: 20px;
+  font-weight: 900;
+  text-align: center;
+  color: darkblue;
+}
+.background a {
+  color: darkblue;
+  text-decoration: underline;
+}
+.background a:hover {
+  color: deeppink;
+}
+.background img {
+  width: 150px;
+  height: 150px;
+  padding: 5px auto;
+}
+
+.content-1 {
+  background-image: url(/images/lijntjes_5.jpg);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  font-family: "Comforter";
+  font-family: "The Girl Next Door";
+  color: darkblue;
+  background-clip: padding-box;
+}
+
+.content-1 h3 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 200;
+}
+.content-1 p {
+  text-align: left;
+  font-size: 0.6em;
+  font-weight: 200;
+  padding: 0px 5px 5px 25%;
+}
+.content-1 a {
+  color: darkblue;
+  text-decoration: underline;
+}
+.content-1 a:hover {
+  color: deeppink;
+}
+.content-1 {
+  max-width: 300px;
+  max-height: 350px;
+}
+.content-1 img {
+  width: 150px;
+  height: 150px;
+  margin: 5px 5px 3px 25%;
+}
+.flex-container-blog {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog-1 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.blog-2 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.blog-3 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.blog-4 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.blog-5 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.blog-6 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.flex-blog {
+  justify-content: space-around;
+  align-items: center;
+}
+.grid-container-1 {
+  width: 95%;
+  margin: 10px auto;
+  background-color: rgb(24, 1, 109);
+}
+
+.flex-container-1 {
+  display: flex;
+  justify-content: center;
+}
+.flex {
+  margin: 0 10px;
+}
+.flex-container-sidebar {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-container-sidebar a {
+  font-size: 0.5em;
+}
+.flex-container-sidebar p {
+  line-height: 0.5em;
+}
+.flex-container-sidebar h2 {
+  font-size: 16px;
+  color: antiquewhite;
+}
+.sidebar {
+  justify-items: baseline;
+}
+
+.my-form {
+  border-radius: 15px;
+  border-top: 2px dashed deeppink;
+  border-bottom: 2px dashed deeppink;
+  margin: 10px 5px;
+  padding: 10px;
+}
+.my-form h3 {
+  margin: 5px;
+  padding-left: 10px;
+}
+.my-form label {
+  display: block;
+  padding: 5px 0px;
+  margin-left: 1em;
+}
+.my-form input {
+  padding: 5px 10px;
+  margin-left: 1em;
+}
+
+.my-form textarea {
+  margin-left: 1em;
+  margin-bottom: 10px;
+}
+
+/*media queri mobiel*/
+@media screen and (max-width: 500px) {
+  p {
+    padding-left: 5px;
+  }
+  h2 {
+    text-align: center;
+    margin: 10px;
+  }
+  .video {
+    margin: 5px auto;
+  }
+  .video iframe {
+    max-width: 300px;
+    padding: 10px;
+  }
+  .img-1 {
+    max-width: 150px;
+    margin: 10px;
+    padding: 10px 0px;
+  }
+  .img-2 {
+    padding: 10px;
+  }
+  .left {
+    float: left;
+    width: 25%;
+  }
+  .right {
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+  }
+  .background img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px 20%;
+    box-shadow: 3px 3px grey;
+  }
+  .background p {
+    line-height: 1.7em;
+    font-weight: 600;
+    padding: 5px 5px 5px 25%;
+  }
+  .background h1 {
+    text-align: center;
+  }
+  .background h2 {
+    text-align: center;
+  }
+  #puppy {
+    padding-top: 20px;
+  }
+}
+
+/*media queri tablet*/
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+  .left {
+    float: left;
+    width: 30%;
+    padding-left: 10px;
+  }
+
+  .right-tab {
+    float: right;
+    width: 60%;
+    padding-top: 30px;
+  }
+  .img-1 {
+    max-width: 220px;
+    margin: 10px;
+    padding: 10px 0px;
+  }
+  .background img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 5px 20%;
+    box-shadow: 3px 3px grey;
+  }
+  .background p {
+    padding: 5px 5px 5px 25%;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+
+  .my-form {
+    margin: 10px;
+  }
+  .my-form h3 {
+    text-align: left;
+    padding: 10px 5px;
+  }
+  .my-form label {
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .my-form input[type="text"],
+  [type="email"],
+  [type="tel"],
+  textarea {
+    width: 15em;
+    padding: 10px;
+  }
+}
+
+/* media querie desktop*/
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 1.8em;
+    line-height: 2em;
+  }
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .video {
+    margin: 5px 10%;
+  }
+  .img-1 {
+    width: 600px;
+    height: auto;
+    padding: 10px;
+  }
+  .img-2 {
+    padding-bottom: 20px;
+  }
+
+  .left {
+    float: left;
+    width: 30%;
+    box-shadow: none;
+  }
+  .right-desk {
+    float: right;
+    width: 65%;
+    padding: 0 10px;
+  }
+  .right-tab {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+
+  .grid-container-1 {
+    width: 90%;
+    height: 100%;
+    margin: 10px;
+    padding: 5px 10px;
+    display: grid;
+    grid-template-columns: 15% 3fr 5%;
+    grid-template-rows: auto auto auto;
+    column-gap: 15px;
+    row-gap: 10px;
+  }
+  .header {
+    grid-column: 2/-1;
+    text-align: center;
+  }
+  .sidebar {
+    grid-row: 1/3;
+    justify-content: center;
+  }
+  .content {
+    grid-column: 2/3;
+  }
+  .content h1 {
+    text-align: left;
+  }
+  .footer {
+    grid-column: 1/-1;
+  }
+  .flex-container-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .background p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding: 5px 10px 5px 25%;
+  }
+  .background h2 {
+    font-size: 1.5em;
+  }
+  .background h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .background img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 20px 20%;
+    padding: 5px auto;
+    box-shadow: 3px 5px 9px black;
+  }
+
+  .my-form h3 {
+    text-align: left;
+    padding: 10px 5px;
+  }
+  .my-form label {
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .my-form input[type="text"],
+  [type="email"],
+  [type="tel"],
+  textarea {
+    width: 20em;
+    padding: 10px;
+  }
+}

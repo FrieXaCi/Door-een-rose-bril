@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Door een rose bril...</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="css html blog" />
+    <meta name="keyword" content="blog css html" />
+    <meta name="author" content="Frieda Haringsma XaCi development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=The+Girl+Next+Door&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>XaCi development</h1>
+      <nav class="flex-container-1">
+        <button class="flex"><a href="/index.html">Home</a></button>
+        <button class="flex"><a href="/aboutme.html">About me</a></button>
+        <button class="flex"><a href="/blog.html">Blog</a></button>
+        <button class="flex"><a href="/contact.html">Contact</a></button>
+      </nav>
+    </header>
+    <div class="grid-container-1">
+      <div class="grid-1 header">
+        <h1>Door een rose bril...</h1>
+      </div>
+      <div class="grid-1 flex-container-sidebar">
+        <div class="sidebar">
+          <a href="/blog_1.html"
+            ><img src="/images//blog_001.a.jpg" alt="foto van een puppy" />HTML,
+            het begin.
+          </a>
+        </div>
+        <div class="sidebar">
+          <a href="/blog_2.html"
+            ><img src="/images/blog_002.a.jpg" alt="foto van css code" />Er is
+            ook css.
+          </a>
+        </div>
+        <div class="sidebar">
+          <a href="/blog_3.html"
+            ><img
+              src="/images/blog_003.a.jpg"
+              alt="foto van Tante Til van de familie Knots"
+            />Een div-je hier.
+          </a>
+        </div>
+        <div class="sidebar">
+          <a href="/blog_4.html"
+            ><img
+              src="/images/blog_004.a.jpg"
+              alt="foto van handen die papier verfrommelen"
+            />Opnieuw beginnen.
+          </a>
+        </div>
+        <div class="sidebar">
+          <a href="/blog_5.html"
+            ><img
+              src="/images/blog_005.a.jpg"
+              alt="foto van iemand die een mobiele telefoon houd voor een personal computer"
+            />Mobile first.
+          </a>
+        </div>
+        <div class="sidebar">
+          <a href="/blog_6.html">
+            <img
+              src="/images/blog_006.a.jpg"
+              alt="foto van code op een beeldscherm"
+            />
+            Flex to the max.
+          </a>
+        </div>
+      </div>
+      <!----einde flex-container-sidebar-->
+
+      <main>
+        <article class="content">
+          <h1>Contact</h1>
+          <h2>Wil je me laten wat je ervan vond?</h2>
+          <p>
+            Vul onderstaand formulier in, ik stel je reactie op prijs. Ook hoor
+            ik graag van je, over welke onderwerpen je meer wilt weten. Heb je
+            zelf een blog, stuur me een link!
+          </p>
+          <form
+            class="my-form"
+            name="contact"
+            method="post"
+            data-netlify="true"
+          >
+            <h3>Vertel, wie ben je?</h3>
+            <div class="form-1">
+              <label>Naam:</label>
+              <input type="text" name="Naam" placeholder="Naam" />
+            </div>
+            <div class="form-1">
+              <label>E-mail:</label>
+              <input type="email" name="E-mail" placeholder="E-mail" />
+            </div>
+            <div class="form-1">
+              <label>Telefoonnummer:</label>
+              <input
+                type="tel"
+                name="Telefoonnummer"
+                placeholder="0123456789"
+              />
+            </div>
+            <h3>Mag ik nog wat meer weten over jou?</h3>
+            <div class="form-1">
+              <label>Leeftijd:</label>
+              <input type="number" name="Leeftijd" placeholder="21" />
+            </div>
+            <div class="form-1">
+              <label>Geboortedatum:</label>
+              <input type="date" name="Geboortedatum" />
+            </div>
+            <label>Geslacht</label>
+            <div class="form-1">
+              <label>Man</label>
+              <input type="radio" name="geslacht" value="Man" />
+              <label>Vrouw</label>
+              <input type="radio" name="geslacht" value="Vrouw" />
+              <label>Zeg ik liever niet</label>
+              <input type="radio" name="geslacht" value="Zeg ik liever niet" />
+            </div>
+            <h3>Welke blog is jouw favoriet?</h3>
+            <div class="form-1">
+              <label>HTML, het begin.</label>
+              <input type="checkbox" name="HTML, het begin" />
+              <label>Er is ook CSS.</label>
+              <input type="checkbox" name="Er is ook CSS." />
+              <label>Een div-je hier.</label>
+              <input type="checkbox" name="Een div-je hier" />
+              <label>Opnieuw beginnen.</label>
+              <input type="checkbox" name="Opnieuw beginnen" />
+              <label>Mobile first.</label>
+              <input type="checkbox" name="Mobile first" />
+              <label>Flex to the max.</label>
+              <input type="checkbox" name="Flex to the max" />
+              <div class="form-1">
+                <label>Link naar je favoriete blog:</label>
+                <input type="url" name="Link naar je favoriete blog" />
+              </div>
+              <div class="form-1">
+                <label>Upload je favoriete blog.</label>
+                <input
+                  class="button-1"
+                  type="file"
+                  name="Upload je favoriete blog"
+                />
+              </div>
+              <div class="form-1">
+                <label
+                  >Wil je meer weten?<br />
+                  <br />Heb je vragen of opmerkingen?</label
+                >
+                <textarea name="Hier kan je ze kwijt.."></textarea>
+              </div>
+              <div class="form-1">
+                <input class="button-1" type="submit" name="Verstuur" />
+              </div>
+            </div>
+          </form>
+        </article>
+      </main>
+    </div>
+    <!--einde grid-container-->
+    <footer>
+      <h6>copyrights by owner</h6>
+      <nav class="flex-container-1">
+        <button class="flex"><a href="/index.html">Home</a></button>
+        <button class="flex"><a href="/aboutme.html">About me</a></button>
+        <button class="flex"><a href="/blog.html">Blog</a></button>
+        <button class="flex"><a href="/contact.html">Contact</a></button>
+      </nav>
+    </footer>
+  </body>
+</html>
