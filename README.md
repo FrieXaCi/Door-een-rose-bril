@@ -1,9 +1,10 @@
 # Door-een-rose-bril
-Hackathon opdracht 
-Hackathon: make your own website using HTML/CSS
-Hackathon
 
-noun, INFORMAL
+Hackathon opdracht WincAcademy
+Hackathon: make your own website using HTML/CSS
+
+Live preview:
+https://hackathon-assignement.netlify.app/
 
 An event in which a large number of people meet to engage in collaborative computer programming.
 
